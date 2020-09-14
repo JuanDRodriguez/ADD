@@ -1,27 +1,67 @@
-<div id="formulario">
-            <form id="form" method="post" action="#">
-<h1>Formulario de Registro BEID</h1><br>
+
              
-                <label>BEID</label>
-                <input type="text" name="beid" id="beid" required="" placeholder="BEID" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">BEID:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="beid" class="input100" placeholder="BEID"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
+               
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">CLIENTE:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="client" class="input100" placeholder="CLIENTE"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>CLIENTE</label>
-                <input type="text" name="client" id="client" required="" placeholder="CLIENTE" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">SMS:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="sms" class="input100" placeholder="CANTIDAD"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>ENVIO SMS</label>
-                <input type="text" name="sms" id="sms" required="" placeholder="CANTIDAD" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">ID ECENARIO:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="ecenario" class="input100" placeholder="RANGO INICIAL"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label> ID ECENARIO</label>
-                <input type="text" name="ecenario" id="ecenario" required="" placeholder=" RANGO INICIAL" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">SPN:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="spn" class="input100" placeholder="RANGO FINAl"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>SPN</label>
-                <input type="text" name="spn" id="spn" required="" placeholder="RANGO FINAl" />
-
-
-                <label>PRODUCTO  </label>
-                <input type="text" name="prod" id="prod" required="" placeholder="TEMPLATE OTA" />
-
-
-                <button type="submit" name="enviar">Enviar</button>
-         </form>
-        </div>
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">PRODUCTO:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="prod" class="input100" placeholder="TEMPLATE OTA"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>

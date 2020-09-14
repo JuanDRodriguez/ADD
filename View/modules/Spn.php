@@ -1,27 +1,72 @@
-<div id="formulario">
-            <form id="form" method="post" action="#">
-<h1>Formulario de Registro APN</h1><br>
+
              
-                <label>BEID</label>
-                <input type="text" name="beid" id="beid" required="" placeholder="BEID" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">BEID:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="beid" class="input100" placeholder="BEID"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>CANTIDAD</label>
-                <input type="text" name="product" id="product" required="" placeholder="CANTIDAD" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">CANTIDAD:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="cant" class="input100" placeholder="CANTIDAD"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>CLIENTE</label>
-                <input type="text" name="client" id="client" required="" placeholder="CLIENTE" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">CLIENTE:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="client" class="input100" placeholder="CLIENTE"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label> RANGO INICIAL</label>
-                <input type="text" name="iniimsi" id="inirange" required="" placeholder=" RANGO INICIAL" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">RANGO INICIAL:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="iniimsi" class="input100" placeholder="RANGO INICIAL"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>RANGO FINAL</label>
-                <input type="text" name="finimsi" id="finrange" required="" placeholder="RANGO FINAl" />
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">RANGO FINAL:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="finimsi" class="input100" placeholder="RANGO FINAL"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
+              
+                <div class="form-group">
+                     <label for="nombre" class="col-form-label">TEMPLATE:</label>
+                     <div class="wrap-input100 validate-input meb">
+                        <input type="text" name="ota" class="input100" placeholder="TEMPLATE OTA"/>
+                        <span class="focus-input100-1">
+                        </span>
+                        <span class="focus-input100-2">
+                        </span>
+                     </div>
+                </div>
 
-                <label>TEMPLATE  </label>
-                <input type="text" name="ota" id="ota" required="" placeholder="TEMPLATE OTA" />
+                
 
-
-                <button type="submit" name="enviar">Enviar</button>
-         </form>
-        </div>
+               

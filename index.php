@@ -1,6 +1,7 @@
 <?php
 require_once "Controller/LoginController.php";
 require_once "Controller/InicioController.php";
+require_once "Controller/TablaController.php";
 require_once "Model/loginModel.php";
 require_once "Model/Networking.php";
 require_once "Model/InicioModel.php";

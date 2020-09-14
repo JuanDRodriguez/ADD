@@ -5,13 +5,13 @@
                 <h4 class="text-light font-weight-bold mb-0">ADD</h4>
             </div>
             <div class="menu">
-                <a href="#" class="d-block text-light p-3 border-0">
+                <a href="index.php?action=beid" class="d-block text-light p-3 border-0">
                     BEIDs</a>
 
-                <a href="#" class="d-block text-light p-3 border-0">
+                <a href="index.php?action=apn" class="d-block text-light p-3 border-0">
                     APNS</a>
 
-                <a href="#" class="d-block text-light p-3 border-0">
+                <a href="index.php?action=spn" class="d-block text-light p-3 border-0">
                   SPNS</a>
                 <a href="#" class="nav-link  dropdown-toggle d-block text-light p-3 border-0 " href="#" id="navbarDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,7 +45,7 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Diego Velázquez
+                      <?php echo $_SESSION["user"]; ?>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Registrar</a>
