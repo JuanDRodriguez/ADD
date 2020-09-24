@@ -2,19 +2,22 @@
 <div class="d-flex" id="content-wrapper">
   <div id="sidebar-container" class="bg-primary">
             <div class="logo">
-                <h4 class="text-light font-weight-bold mb-0">ADD</h4>
+                <h4 class="text-light font-weight-bold mb-0">Portal de AutoGestion</h4>
             </div>
             <div class="menu">
-                <a href="index.php?action=beid" class="d-block text-light p-3 border-0">
-                    BEIDs</a>
-
-                <a href="index.php?action=apn" class="d-block text-light p-3 border-0">
-                    APNS</a>
-
-                <a href="index.php?action=spn" class="d-block text-light p-3 border-0">
-                  SPNS</a>
-                <a href="#" class="nav-link  dropdown-toggle d-block text-light p-3 border-0 " href="#" id="navbarDropdown" role="button"
+            <li class="nav-item dropdown">
+            <a href="#" class="nav-link  dropdown-toggle d-block text-light p-3 border-0 " href="#" id="navbarDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ADD</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.php?action=beid">BEIDS</a>
+                      <a class="dropdown-item" href="index.php?action=apn">APNS</a>
+                      <a class="dropdown-item" href="index.php?action=spn">SPNS</a>
+                    </div>
+              </li>
+              <li class="nav-item dropdown">
+                    <a href="#" class="nav-link  dropdown-toggle d-block text-light p-3 border-0 " href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Mensajeria</a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Barring</a>
@@ -25,6 +28,7 @@
                 <a href="#" class="d-block text-light p-3 border-0">
                     Consulta de saldo</a>
             </div>
+            </li>
         </div>
         <!-- Fin sidebar -->
 

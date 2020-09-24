@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/>
     <link rel="stylesheet"  type="text/css" href="datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css"> 
-    <title>Document</title>
+    <title>Portal de AutoGestion</title>
 </head>
 <body>
 <?php
