@@ -10,7 +10,6 @@ $inicio = new InicioController();
 session_start();
 if($_SESSION["isSession"]){
     $inicio-> Plantilla();
-    
 }else{
     if(isset($_POST["user"])){
         if($login-> setLogin($_POST["user"],$_POST["password"])){
